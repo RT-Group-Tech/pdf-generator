@@ -1,0 +1,16 @@
+{
+    "name": "chris-tenday/pdf-generate",
+    "description": "Composant pour générer un pdf à partir d'un document word template.",
+    "autoload": {
+        "psr-4": {
+            "ChrisTenday\\PdfGenerate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chris Tenday",
+            "email": "ctenday@gmail.com"
+        }
+    ],
+    "require": {}
+}
