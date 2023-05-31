@@ -12,8 +12,16 @@ $pdf->setData("province","Katanga");
 //$pdf->setData("age","27");
 $block1=$pdf->newBlock("table");
 $block1->setData("culture","Tenday");
+$block1->setData("nbr",120);
+$block1->setData("superficie",300000);
+$block1->setData("production",200);
+
 $block2=$pdf->newBlock("table");
 $block2->setData("culture","Chris");
+$block2->setData("nbr",500);
+$block2->setData("superficie",240000);
+$block2->setData("production",400);
+
 $block3=$pdf->newBlock("table");
 $block3->setData("culture","Mesa");
 /*$pdf->saveBlock($block1);
