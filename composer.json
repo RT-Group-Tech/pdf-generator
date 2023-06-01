@@ -1,5 +1,5 @@
 {
-    "name": "chris-tenday/pdf-generate",
+    "name": "chris-tenday/pdf-generator",
     "description": "Composant pour générer un pdf à partir d'un document word template.",
     "autoload": {
         "psr-4": {

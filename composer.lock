@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb1b13304220e7c8fe1570aa78163165",
+    "content-hash": "69a512dd1b392d4677bf2ec949ae740d",
     "packages": [
         {
             "name": "aspose/words-sdk-php",
