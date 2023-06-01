@@ -24,9 +24,6 @@ $block2->setData("production",400);
 
 $block3=$pdf->newBlock("table");
 $block3->setData("culture","Mesa");
-/*$pdf->saveBlock($block1);
-$pdf->saveBlock($block2);
-$pdf->saveBlock($block3);*/
 
 $pdf->generate();
 
