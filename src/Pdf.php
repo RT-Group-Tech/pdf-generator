@@ -8,7 +8,7 @@ use Aspose\Words\Model\Requests\ConvertDocumentRequest;
 use Aspose\Words\WordsApi;
 use PhpOffice\PhpWord\TemplateProcessor;
 
-define("DS",DIRECTORY_SEPARATOR);
+//define("DS",DIRECTORY_SEPARATOR);
 
 class Pdf
 {
@@ -78,7 +78,7 @@ class Pdf
         $filename=rand(1,9999)."_".$l[0].$l[1].$l[2].$l[3].$l[4];
         $ext=".docx";
         $folder="uploads";
-        $path=$this->destinationFolder.DS.$filename.$ext;
+        $path=$this->destinationFolder.DIRECTORY_SEPARATOR.$filename.$ext;
         $this->processor->saveAs($path);
 
         try
@@ -121,7 +121,7 @@ class Pdf
 
         $wordApi=new WordsApi($clientId,$clientSecret);
 
-        $pdfDocPath=$fileDetails['dirname'].DS.$fileDetails['filename'].".pdf";
+        $pdfDocPath=$fileDetails['dirname'].DIRECTORY_SEPARATOR.$fileDetails['filename'].".pdf";
 
         $convertRequest=new ConvertDocumentRequest($wordDoc,"pdf",null);
 
