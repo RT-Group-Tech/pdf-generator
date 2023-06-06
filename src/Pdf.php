@@ -3,7 +3,7 @@
 
 namespace ChrisTenday\PdfGenerate;
 
-require_once "vendor/autoload.php";
+
 use Aspose\Words\Model\Requests\ConvertDocumentRequest;
 use Aspose\Words\WordsApi;
 use PhpOffice\PhpWord\TemplateProcessor;
