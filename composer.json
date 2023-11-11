@@ -15,5 +15,6 @@
     "require": {
         "phpoffice/phpword": "0.18.3",
         "aspose/words-sdk-php": "^23.10"
-    }
+    },
+    "minimum-stability": "dev"
 }
